@@ -40,7 +40,7 @@
     mPayment
             .setEnvironment("sandbox")
             .setKey("pk_test_6e40a700-d563-43cd-89d0-f9bb17d35e73")
-            .setTokenListener(mTokenListener) // pass the callback
+            .setTokenListener(mTokenListener); // pass the callback
 ```
 
 
@@ -98,11 +98,11 @@ Moreover, the module inherits the  **Theme.AppCompat.Light.DarkActionBar** style
         <item name="colorAccent">#000000</item>
         <!--PAY/DONE BUTTON COLOR-->
         <item name="colorButtonNormal">#000000</item>
-        <!--HELPER LABELS AND UNSELECTED FIELD COLOR-->
+        <!--HELPER LABELS AND UNSELECTED FIELDS COLOR-->
         <item name="colorControlNormal">#000000</item>
     </style>
     ...
-       <com.example.android_sdk.CheckoutKit
+    <com.example.android_sdk.CheckoutKit
         android:id="@+id/checkout_card_form"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
